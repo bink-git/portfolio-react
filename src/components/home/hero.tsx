@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 import { MotionDiv } from '../ui/motion-div';
 import '../../App.css';
+import Spline from '@splinetool/react-spline/next';
 
 export function Hero() {
   return (
@@ -10,7 +11,6 @@ export function Hero() {
       id="home"
       className="relative min-h-screen flex flex-col items-center justify-center py-20 px-6 "
     >
-      {/* <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_right,rgb(var(--background)),transparent_70%)]"></div> */}
       <div className="gradient absolute -z-10"></div>
 
       <div className="container max-w-4xl flex flex-col items-center justify-center text-center z-10">
