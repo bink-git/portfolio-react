@@ -58,13 +58,13 @@ const ALL_PROJECTS: Project[] = [
   },
   {
     id: '6',
-    title: 'Fitness Tracking App',
+    title: 'Car Repair Service',
     description:
-      'A fitness tracking application for logging workouts, tracking progress, and setting fitness goals.',
-    image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1',
-    tags: ['React Native', 'TypeScript', 'Redux', 'Firebase'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/example',
+      'A car repair service website with a modern design, smooth animations.',
+    image: '/images/work-1.jpg',
+    tags: ['HTML', 'JavaScript', 'CSS', 'GSAP'],
+    liveUrl: 'https://car-repair-bink.vercel.app/',
+    githubUrl: 'https://github.com/bink-git/car-repair',
   },
 ];
 

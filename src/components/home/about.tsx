@@ -58,7 +58,7 @@ export function About() {
                     </div>
                     <div className="h-2 w-full bg-muted rounded-full overflow-hidden">
                       <div
-                        className="h-full bg-primary rounded-full transition-all duration-1000 ease-out"
+                        className="h-full bg-primary bg-gradient-to-r from-sky-400 via-blue-500 to-violet-500    rounded-full transition-all duration-1000 ease-out"
                         style={{
                           width: `${skill.level}%`,
                           transitionDelay: `${index * 100}ms`,
