@@ -44,12 +44,16 @@
   color: #888;
 }
 
+
+
+
+
 .gradient {
   width: 100vw;
-  height: 100vh;
-  background: linear-gradient(334deg, #3978ff, #7525e2, #ff07b9);
+  height: 100%;
+  background: linear-gradient(90deg, #3978ff, #7525e2, #ff07b9, #7525e2, #3978ff);
   background-size: 150% 150%;
-  animation: gradient-animation 5s ease infinite;
+  animation: gradient-animation 8s ease infinite;
 }
 
 @keyframes gradient-animation {
@@ -63,5 +67,26 @@
 
   100% {
     background-position: 0% 50%;
+  }
+}
+
+.gradient-border {
+
+  background: linear-gradient(90deg, #4141ff, #ffffff, #4141ff);
+  background-size: 150% 150%;
+  animation: gradient-border 3s ease infinite;
+}
+
+@keyframes gradient-border {
+  0% {
+    background-position: 0% 100%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 100%;
   }
 }

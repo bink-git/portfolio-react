@@ -92,6 +92,9 @@ export default {
           '0%': { transform: 'scale(0.95)', opacity: '0' },
           '100%': { transform: 'scale(1)', opacity: '1' },
         },
+        border: {
+          to: { '--border-angle': '360deg' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
@@ -101,6 +104,7 @@ export default {
         'slide-up': 'slide-up 0.5s ease-out forwards',
         'slide-down': 'slide-down 0.5s ease-out forwards',
         'scale-in': 'scale-in 0.5s ease-out forwards',
+        border: 'border 4s linear infinite',
       },
       fontFamily: {
         sans: ['Inter var', ...fontFamily.sans],
